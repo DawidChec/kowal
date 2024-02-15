@@ -146,6 +146,9 @@ while True:
                 level_item = burned_item
                 print(f"{item_name} has burned to +{burned_item}")
 
+    elif user_upgrades == "-":
+        level_item = level_item - 1
+        print(f"Congratulations! Your item {item_name} has been uppgraded to +{level_item}.")
 
 
     continue_upgrades = input("Do you wish to still upgrade? (Y/n): ").lower()
