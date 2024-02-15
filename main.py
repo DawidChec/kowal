@@ -1,7 +1,6 @@
 import random
+from functions import item
 
-def item(x):
-    return x
 
 item_name = input("Enter your item name: ")
 level_item = int(input("Type in item lvl: "))
